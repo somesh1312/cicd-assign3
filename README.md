@@ -36,7 +36,7 @@ This solution automates the extraction and filtering of **"delivered"** orders f
 
 ## 🧱 Architecture Diagram
 
-![Architecture](architecture.png)
+![Architecture](image.png)
 
 > 🔁 Upload JSON → 🧠 Lambda (via S3 Trigger) → 📤 Filtered JSON → 🗂️ Target Bucket → 🔔 SNS Notification → ✅ CI/CD Pipeline via GitHub & CodeBuild
 
